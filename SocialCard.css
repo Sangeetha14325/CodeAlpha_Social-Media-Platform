@@ -1,0 +1,78 @@
+.social-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+  }
+  
+  .social-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  
+  .social-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .social-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  /* Platform-specific styles */
+  .social-card.facebook {
+    border-color: #3b5998;
+  }
+  
+  .social-card.twitter {
+    border-color: #1da1f2;
+  }
+  
+  .social-card.instagram {
+    border-color: #e4405f;
+  }
+  
+  .social-card.linkedin {
+    border-color: #0077b5;
+  }
+  
+  .social-card.youtube {
+    border-color: #ff0000;
+  }
+  
+  .social-card.tiktok {
+    border-color: #69c9d0;
+  }
+  
+  /* Add color and font effects */
+  .social-card.facebook:hover {
+    color: #3b5998;
+  }
+  
+  .social-card.twitter:hover {
+    color: #1da1f2;
+  }
+  
+  .social-card.instagram:hover {
+    color: #e4405f;
+  }
+  
+  .social-card.linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .social-card.youtube:hover {
+    color: #ff0000;
+  }
+  
+  .social-card.tiktok:hover {
+    color: #69c9d0;
+  }
+  
